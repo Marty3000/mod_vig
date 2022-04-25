@@ -5,7 +5,6 @@ edition = "2021"
 authors = ["Marty3000"]
 description = "cli for a modernized Vigenere algorithm"
 license = "MIT"
-license-file = "LICENSE.txt"
 repository = "https://github.com/Marty3000/mod_vig.git"
 documentation = "https://docs.rs/mod_vig"
 keywords = ["cli", "crypto", "encryption", "rustcrypto", "vigenere"]
@@ -13,5 +12,5 @@ categories = ["cryptography"]
 
 
 [dependencies]
-modernized_vigenere = { version = "0.1", path = "../modernized_vigenere" }
+modernized_vigenere = "0.1"
 clap = { version = "3.1.12", features = ["derive"] }

@@ -118,6 +118,8 @@ dependencies = [
 [[package]]
 name = "modernized_vigenere"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e6c5cef4e7aaee88558df81c0d57ad767c1352c6e9e90e2432cd6ad030c0720f"
 
 [[package]]
 name = "os_str_bytes"
