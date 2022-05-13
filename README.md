@@ -15,7 +15,8 @@ But time has changed since the 16th century:\
 Today, we use files ( and not only ASCII-files ).\
 So this modernized lib does not shift alphabetic letters but bytes !
 
-Therefore this lib can be used to en/de-crypt not only ASCII-files, but any kind of files (yes, even binaries).
+Therefore this lib can be used to en/de-crypt not only ASCII-files, but any kind of files (yes, even binaries),\
+and is able to use not only Strings but also (binary) files as a phrase for en/de-cryption.
 
 ---
 ## Usage
@@ -34,7 +35,7 @@ OPTIONS:
     -h, --help               Print help information
     -i, --ifile <IFILE>      Name of the input file
     -o, --ofile <OFILE>      Name of the output file
-    -p, --phrase <PHRASE>    cipher phrase
+    -p, --phrase <PHRASE>    cipher phrase-file or cipher phrase
     -v, --verbose            print verbose messages
     -V, --version            Print version information
 

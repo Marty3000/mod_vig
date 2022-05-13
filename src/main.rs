@@ -1,6 +1,6 @@
 //! simple cli-Interface for the modernized _vigenere lib
 //!
-//! encrypt and decrypt any files with a vigenere cipher based on bytes ( not on teh alphabet )
+//! encrypt and decrypt any files with a vigenere cipher based on bytes ( not on the alphabet )
 #![forbid(unsafe_code)]
 
 use clap::Parser;
@@ -21,7 +21,7 @@ struct Args {
     #[clap(short, long, forbid_empty_values = true)]
     ifile: String,
 
-    /// cipher phrase
+    /// cipher phrase-file or cipher phrase
     #[clap(short, long, forbid_empty_values = true)]
     phrase: String,
 

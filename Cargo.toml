@@ -1,6 +1,6 @@
 [package]
 name = "mod_vig"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Marty3000"]
 description = "cli for a modernized Vigenere algorithm"
